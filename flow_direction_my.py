@@ -25,13 +25,7 @@ def process_dem_and_save_flow_directions(dem_tiff_path, output_tiff_path, output
 
 
 # Replace 'your_dem_file.tif' with the actual path to your DEM GeoTIFF file
-
-# input_tiff_path = "P:/PhD/Pavan_phd/data/tordera/new_methodology/DATA/dem/tordera_dem.tif"
-# input_tiff_path = "P:/PhD/Pavan_phd/data/tordera/new_methodology/DATA/dem/tordera_dem_fill_pits.tif"
-input_tiff_path = "P:/PhD/Pavan_phd/data/tordera/new_methodology/DATA/dem/tordera_dem_filled_sinks.tif"
-
-# output_tiff_path = 'P:/PhD/Pavan_phd/data/tordera/new_methodology/DATA/flow_direction/flow_direction_v2.tif'
-output_tiff_path = 'P:/PhD/Pavan_phd/data/tordera/new_methodology/DATA/flow_direction/flow_direction_v3.tif'
-
-output_tiff_path2 = 'P:/PhD/Pavan_phd/data/tordera/new_methodology/DATA/flow_direction/slope_v2.tif'
+input_tiff_path = "xxxx.tif"
+output_tiff_path = 'xxx.tif'
+output_tiff_path2 = 'xxx.tif'
 process_dem_and_save_flow_directions(input_tiff_path, output_tiff_path, output_tiff_path2)
